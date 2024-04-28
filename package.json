@@ -12,6 +12,9 @@
   "author": "sgk",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@eslint/js": "^9.1.1",
@@ -23,5 +26,8 @@
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.7.1",
     "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "vue": "^3.4.25"
   }
 }
